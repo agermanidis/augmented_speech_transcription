@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <style>
+      body {
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 50px;
+      }
+
+      body {
+        font-family: Helvetica Neue;
+      }
+
+      #mic {
+        width: 20px;
+      }
+
+      #transcript {
+        border: 1px solid black;
+        height: 600px;
+        padding: 20px;
+      }
+
+      #placeholder {
+        color: gray;      
+      }
+
+      #export {
+        padding: 5px;
+        margin: 5px;
+        font-size: 20px;
+      }
+    </style>
+    <title>Augmented Speech Transcription Demo</title>
+  </head>
+  <body>
+    <p><img id="mic" src="images/mic.png"></img> <b>augmented speech transcription demo</b> <span>// the
+    loudness of your voice determines the font size of the
+    transcribed phrases</span> // by <a href="http://github.com/agermanidis">@agermanidis</a></p>
+    <div id="transcript"><span id="placeholder">say anything</span></div>
+    <script src="js/augmented_transcription.js"></script>
+  </body>
+</html>
+
